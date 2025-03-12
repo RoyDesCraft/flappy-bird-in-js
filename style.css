@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+canvas {
+    background: url(https://user-images.githubusercontent.com/18351809/46888871-624a3900-ce7f-11e8-808e-99fd90c8a3f4.png) no-repeat scroll center / auto 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'FlappyBirdFont';
+    src: url('flappy-bird-font.ttf') format('truetype');
+}
+
+
+#gameCanvas {
+    font-family: 'FlappyBirdFont', sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+
+
