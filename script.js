@@ -88,12 +88,6 @@ if (canPlay) {
 }
 });
 
-document.addEventListener("touch", function() {
-        if (canPlay) {
-            birdSpeedY2 = -8;
-            birdSpeedY = -8;
-        } 
-});
 
 
 document.addEventListener("keydown", function(event) {
