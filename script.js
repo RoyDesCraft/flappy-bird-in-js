@@ -187,7 +187,7 @@ if (!canPlay) {
 
 pipe.forEach(p => {
 
-mode cheat    p.y = y-700
+/*/mode cheat    p.y = y-700/*/
 
 
 
